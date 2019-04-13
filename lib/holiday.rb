@@ -24,6 +24,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
 end
 end 
 end
+end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
   # holiday_hash is identical to the one above
@@ -79,12 +80,5 @@ holiday_hash.map do |season, holiday|
   end.flatten.compact
 end
 
-
-
-
-holiday_hash.each do |season, data|
-    if season == :summer 
-      data.each do |holiday, thing|
-        return thing[1]
 
 
