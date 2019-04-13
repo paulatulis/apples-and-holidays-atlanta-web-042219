@@ -85,7 +85,4 @@ holiday_hash.map do |season, holiday|
   end.flatten.compact
 end
 
-holiday_hash[:winter].each do |season, thing|
-   thing << supply 
-
 
