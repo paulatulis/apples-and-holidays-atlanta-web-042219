@@ -22,7 +22,6 @@ holiday_hash.each do |season, holidays|
   bbq = holidays[:fourth_of_july][1]
   end 
 end
-end 
 bbq
 end
 
