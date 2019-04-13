@@ -23,7 +23,7 @@ holiday_hash.each do |season, holidays|
   end 
 end
 end 
-end 
+bbq
 end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
